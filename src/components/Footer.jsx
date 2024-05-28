@@ -4,12 +4,18 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-brand">
-          <img src="/logo.png" alt="TAISHOW Logo" className="footer-logo" />
-          <p className="footer-description">
-            Bringing the best movie experience to you.
-          </p>
+        <div className="footer-links">
+          <h3 className="footer-title">Movie Theatre</h3>
+          <ul className="footer-theatres">
+            <li>
+              <a href="#">爆米花影城</a>
+            </li>
+            <li>
+              <a href="#">吉拿棒影城</a>
+            </li>
+          </ul>
         </div>
+
         <div className="footer-links">
           <h3>Quick Links</h3>
           <ul>
@@ -30,7 +36,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footer-social">
+        <div className="footer-links">
           <h3>Follow Us</h3>
           <ul>
             <li>

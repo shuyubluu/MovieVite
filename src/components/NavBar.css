@@ -1,4 +1,6 @@
 .nav-bar {
+  position: fixed; /* 將導航欄固定在畫面上方 */
+  top: 0; /* 將導航欄置於畫面的頂部 */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,6 +8,8 @@
   padding: 0 2.4rem;
   background-color: var(--color-background-500);
   border-radius: 0.9rem;
+  width: 100%; /* 使導航欄擴展至整個畫面寬度 */
+  z-index: 1000; /* 確保導航欄處於其他內容的上方 */
 }
 
 .logo {
